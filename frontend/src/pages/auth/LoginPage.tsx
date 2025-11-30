@@ -26,7 +26,7 @@ interface LoginFormData {
   password: string;
 }
 
-const GOOGLE_CLIENT_ID = process.env.REACT_APP_GOOGLE_CLIENT_ID || '280149524400-scrvsacun16l92stthmom1t1du1l7s1m.apps.googleusercontent.com';
+const GOOGLE_CLIENT_ID = process.env.REACT_APP_GOOGLE_CLIENT_ID || '280149524400-kv01dca1b5k1dn83edfjlp51lv15rul9.apps.googleusercontent.com';
 
 const LoginPage: React.FC = () => {
   const [showPassword, setShowPassword] = useState(false);
